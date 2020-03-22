@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+analy1.py	../analy1.py	1;"	kind:file	line:1
+analy2.py	../analy2.py	1;"	kind:file	line:1
+c	../analy1.py	/^c = conn.cursor()$/;"	kind:variable	line:7
+c	../analy2.py	/^c = conn.cursor()$/;"	kind:variable	line:7
+chart.py	../chart.py	1;"	kind:file	line:1
+collect.py	../collect.py	1;"	kind:file	line:1
+conn	../analy1.py	/^conn = sqlite3.connect(sqlite_file)$/;"	kind:variable	line:5
+conn	../analy2.py	/^conn = sqlite3.connect(sqlite_file)$/;"	kind:variable	line:5
+conn	../chart.py	/^conn = sqlite3.connect(sqlite_file)$/;"	kind:variable	line:87
+conn	../collect.py	/^conn = sqlite3.connect(sqlite_file)$/;"	kind:variable	line:14
+datetime	../collect.py	/^from datetime import datetime$/;"	kind:namespace	line:1
+dateutil	../collect.py	/^import dateutil.parser$/;"	kind:namespace	line:2
+get_video_duration	../collect.py	/^def get_video_duration(ydl, video_id):$/;"	kind:function	line:57
+insert_channel	../collect.py	/^def insert_channel(name, channel_id):$/;"	kind:function	line:16
+insert_history	../collect.py	/^def insert_history(timestamp, video_id):$/;"	kind:function	line:24
+insert_video	../collect.py	/^def insert_video(title, video_id, channel_id):$/;"	kind:function	line:20
+json	../collect.py	/^import json$/;"	kind:namespace	line:3
+json_file_path	../collect.py	/^json_file_path = '.\/watch-history.json'$/;"	kind:variable	line:9
+matplotlib	../chart.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:1
+os	../collect.py	/^import os$/;"	kind:namespace	line:4
+parser	../collect.py	/^import dateutil.parser$/;"	kind:namespace	line:2
+plot_video_length	../chart.py	/^def plot_video_length():$/;"	kind:function	line:4
+plot_watch_hour	../chart.py	/^def plot_watch_hour():$/;"	kind:function	line:60
+plot_yearly_count	../chart.py	/^def plot_yearly_count():$/;"	kind:function	line:32
+plt	../chart.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:1
+populate_database	../collect.py	/^def populate_database():$/;"	kind:function	line:32
+requests	../collect.py	/^import requests$/;"	kind:namespace	line:5
+rows	../analy1.py	/^rows = c.fetchall()$/;"	kind:variable	line:25
+rows	../analy2.py	/^rows = c.fetchall()$/;"	kind:variable	line:21
+sqlite3	../analy1.py	/^import sqlite3$/;"	kind:namespace	line:1
+sqlite3	../analy2.py	/^import sqlite3$/;"	kind:namespace	line:1
+sqlite3	../chart.py	/^import sqlite3$/;"	kind:namespace	line:2
+sqlite3	../collect.py	/^import sqlite3$/;"	kind:namespace	line:6
+sqlite_file	../analy1.py	/^sqlite_file = '.\/youtube.db'$/;"	kind:variable	line:3
+sqlite_file	../analy2.py	/^sqlite_file = '.\/youtube.db'$/;"	kind:variable	line:3
+sqlite_file	../chart.py	/^sqlite_file = '.\/youtube.db'$/;"	kind:variable	line:86
+sqlite_file	../collect.py	/^sqlite_file = '.\/youtube.db'$/;"	kind:variable	line:10
+update_video_info	../collect.py	/^def update_video_info(video_id, duration):$/;"	kind:function	line:28
+video_detail_cache_folder	../collect.py	/^video_detail_cache_folder = '.\/cache\/%s'$/;"	kind:variable	line:11
+youtube_dl	../collect.py	/^import youtube_dl$/;"	kind:namespace	line:7
